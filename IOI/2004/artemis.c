@@ -39,8 +39,22 @@ int main(void) {
         for (int left = right - 1; left >= 0; --left) {
             int leftTree = treeOrder[left];
             int leftY  = y[leftTree];
+            int difference = belowRight - belowLeft[left];
+            int count = 2 + (difference < 0 ? -difference : difference);
+
+            if (count >= minTrees && count < bestCount) {
+                bestCount = count;
+                bestI = leftTree;
+                bestJ = rightTree;
+            }
+
+            if(leftY < rightY) ++belowRight;
+            else ++belowLeft[left];
         }
     }
+
+    FILE *output = fopen("artemis.out", "w");
+    if (output == NULL ) return 1;
     
     return 0;
 }
