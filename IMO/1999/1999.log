@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 NOV 2026 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 NOV 2026 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/cristosaidsalaslandaverde/Documents/IMO/1999/1999.tex
-(/Users/cristosaidsalaslandaverde/Documents/IMO/1999/1999.tex
+**/Users/cristosaidsalaslandaverde/Documents/IOI-IMO/IMO/1999/1999.tex
+(/Users/cristosaidsalaslandaverde/Documents/IOI-IMO/IMO/1999/1999.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
@@ -344,7 +344,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--77
 
  []
 
@@ -360,14 +360,14 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  12451 strings out of 474662
- 259846 string characters out of 5751110
- 629034 words of memory out of 5000000
+ 259870 string characters out of 5751110
+ 630034 words of memory out of 5000000
  35304 multiletter control sequences out of 15000+600000
  562824 words of font info for 49 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 84i,6n,91p,437b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,91p,445b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on 1999.pdf (1 page, 79263 bytes).
+Output written on 1999.pdf (1 page, 79467 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
