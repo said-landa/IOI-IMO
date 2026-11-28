@@ -17,7 +17,7 @@
 \noindent{\large \\
    Let $O$ be the centroid of $S$, obtained by averaging the coordinates of its points. For any two distinct points $A,B\in S$,
    the perpendicular bisector of $AB$ passes through $O$. A reflection across this bisector maps \(S\) onto itself, so it fixes its centroid \(O\)
-   and sends \(A\) to \(B\), so \(OA\) = \(OB\).
+   and sends \(A\) to \(B\), so \(OA\) = \(OB\). The reflextion fixes \(O\) because reflecting the points also reflects their average. Since reflection permutes the points of \(S\), their average stays \(O\).
 
     \begin{center}
         \begin{picture}(120,50)
@@ -40,7 +40,7 @@
     \\\\
     Let \(P=A, Q, R=B\) be any three consecutive points of \(S\) in clockwise order. If you walk clockwise from \(P\) to \(R\), \(Q\) is the only dot you pass. This gives us two neighboring gaps to compare, one on each side of \(Q\).
     Reflect across the perpendicular bisector of \(PR\).
-    This reflection maps the clockwise arc from \(P\) to \(R\) onto itself.
+    This reflection maps the clockwise arc from \(P\) to \(R\) onto itself, tracing the same blue arc.
 
     \begin{center}
     \begin{tikzpicture}
@@ -66,14 +66,9 @@
     \noindent Since \(Q\) is the only point of \(S\) inside this arc, the reflection fixes \(Q\).
     The reflection swaps the two parts of the blue arc at \(Q\), so they have equal length. 
     We can compare every pair of neighboring gaps this way, so all the gaps are equal.
-    So \(S\) is the set of vertices of a regular polygon.
     \\\\
-    \noindent It remains to show that the vertices of every regular polygon satisfy the reflection condition.
-    Let \(S\) be the set of vertices of an arbitrary regular polygon.
-    Choose any two distinct vertices \(P\) and \(R\), and reflect across the perpendicular bisector of \(PR\).
-    The mirror line passes through the center, so the reflection maps the circle onto itself.
-    A clockwise step from \(P\) to the next vertex becomes an equally long counterclockwise step from \(R\).
-    All gaps are equal, so each further step also lands on a vertex of \(S\). Thus the perpendicular bisector of \(PR\) is an axis of symmetry of \(S\).
+    \noindent
+
     
 }
 
